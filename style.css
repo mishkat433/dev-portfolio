@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.mishkat {
+    color: #FFA500;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.header-parents {
+    display: flex;
+    background: url("./image/top-banner.png") no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.half-width img {
+    width: 85%;
+}
+
+.hire-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.heading-2 {
+    font-size: 40px;
+}
+
+.header-parents-2 {
+    display: flex;
+    background-image: url("./image/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+.wid {
+    margin-right: 105px;
+}
+
+.back-img {
+    background-image: url("./image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.full-card {
+    box-shadow: 5px 7px 40px gray;
+    padding: 20px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 350px;
+}
+
+.full-card h2 {
+    color: #FFA500;
+}
+
+.side-1 {
+    border-left: 8px solid tomato;
+}
+
+.side-2 {
+    border-left: 8px solid blue;
+}
