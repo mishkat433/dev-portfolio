@@ -84,3 +84,8 @@ section {
 .side-2 {
     border-left: 8px solid blue;
 }
+
+footer p {
+    font-size: 18px;
+    text-align: center;
+}
