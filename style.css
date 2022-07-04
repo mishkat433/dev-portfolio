@@ -73,6 +73,10 @@ section {
     height: 350px;
 }
 
+.full-card p {
+    overflow: auto;
+}
+
 .full-card h2 {
     color: #FFA500;
 }
@@ -127,7 +131,7 @@ footer p {
         width: 85%;
         float: left;
         padding: 2%;
-        height: 350px;
+        height: 450px;
         margin-bottom: 40px;
     }
 
