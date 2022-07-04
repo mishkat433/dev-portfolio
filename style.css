@@ -91,5 +91,24 @@ footer p {
 }
 
 @media only screen and (max-width:600px) {
-    .header-parents {}
+    .header-parents {
+        display: flexbox;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: start;
+    }
+
+    .half-width {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .half-width img {
+        width: 90%;
+    }
+
+    section {
+        height: 100vh;
+        padding-bottom: 150px;
+    }
 }
