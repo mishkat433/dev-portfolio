@@ -90,12 +90,13 @@ footer p {
     text-align: center;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:720px) {
     .header-parents {
-        display: flexbox;
+        display: flex;
         flex-direction: column-reverse;
         align-items: flex-start;
         justify-content: start;
+        padding: 10px;
     }
 
     .half-width {
@@ -108,7 +109,26 @@ footer p {
     }
 
     section {
-        height: 100vh;
+        height: 100%;
         padding-bottom: 150px;
     }
+
+    .heading {
+        font-size: 40px;
+    }
+
+    .header-parents-2 {
+        display: block;
+
+        padding: 10px;
+    }
+
+    .full-card {
+        width: 85%;
+        float: left;
+        padding: 2%;
+        height: 350px;
+        margin-bottom: 40px;
+    }
+
 }
